@@ -11,7 +11,7 @@ public class Main {
         float n3=Float.parseFloat(JOptionPane.showInputDialog("Ingrese la Calificación 3:"));
         
         //Formula
-        float prom=((n1+ n2+n3)/3);
+        float prom=((n1 + n2 + n3) / 3);
         
         //Resultados
         JOptionPane.showMessageDialog(null, "Promedio: " + prom);
